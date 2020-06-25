@@ -1,0 +1,42 @@
+messages:
+  starting:
+    hr12: "&c&lTRIBE WARS! &fA war is going to start in 12 hours. Choose a team with /tribe!"
+    hr6: "&c&lTRIBE WARS! &fA war is going to start in 6 hours. Choose a team with /tribe!"
+    hr3: "&c&lTRIBE WARS! &fA war is going to start in 3 hours. Choose a team with /tribe!"
+    hr1: "&c&lTRIBE WARS! &fA war is going to start in 1 hour. Choose a team with /tribe!"
+    min30: "&c&lTRIBE WARS! &fA war is going to start in 30 minutes. Choose a team with /tribe!"
+    min5: "&c&lTRIBE WARS! &fA war is going to start in 5 minutes. Choose a team with /tribe!"
+    started: "&c&lTRIBE WARS! &fWar has begun! If you're not neutral, fight and gather kills to win this war."
+    started2: "&fType /war for the current statistics."
+  ending:
+    hr24: "&c&lThis war will end in 24 hours."
+    ended:
+      message: "&c&lTRIBE WARS! &fWar has ended. The fight to be the best tribe is over."
+      redwon: "&c&lTRIBE WARS! The red tribe was victorious!"
+      bluewon: "&9&lTRIBE WARS! The blue tribe was victorious!"
+      tie: "&e&lTRIBE WARS! This war was a tie."
+  errors:
+    cannotswitchwhileinwar: "&cYou cannot switch tribes while there is an active war."
+    targetneutral: "&7This player is neutral and can't be hurt."
+    youneutral: "&7You're neutral, so you cannot participate."
+    targetteammate: "&cThis player is in your tribe."
+
+wincommands:
+  red:
+    "eco give %player% 1000>pex user name add trail.redteam>pex user name add tag.redteam>give %player% diamond 2"
+  blue:
+    "eco give %player% 1000>pex user name add trail.blueteam>pex user name add tag.blueteam>give %player% diamond 2"
+
+tribes:
+  red:
+    totalkills: 0
+    totaldeaths: 0
+    currentkills: 0
+    currentdeaths: 0
+    totalvictories: 0
+  blue:
+    totalkills: 0
+    totaldeaths: 0
+    currentkills: 0
+    currentdeaths: 0
+    totalvictories: 0

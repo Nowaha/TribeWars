@@ -1,0 +1,10 @@
+name: TribeWars
+version: 1.8
+main: me.nowaha.tribewars.TribeWars
+api-version: 1.13
+authors: [Nowaha]
+website: www.noahverkaik.com
+commands:
+  war:
+  tribe:
+  reloadwar:
